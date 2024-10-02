@@ -1,0 +1,28 @@
+.sidebar {
+    width: 250px;
+    background-color: #1976d2; /* Blue color */
+    color: white;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    padding-top: 60px; /* Adjust if you have a header */
+  }
+  
+  .sidebar .MuiList-root {
+    padding: 0;
+  }
+  
+  .sidebar .MuiListItem-root {
+    padding: 10px 20px;
+  }
+  
+  .sidebar .MuiListItemText-root {
+    color: white;
+  }
+  
+  .sidebar .MuiListItem-button:hover {
+    background-color: #1565c0;
+  }
+  
